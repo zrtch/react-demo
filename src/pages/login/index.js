@@ -1,10 +1,12 @@
 import React, { Component } from "react"
+import Header from "../../components/header"
 import "./login.scss"
 
 class Login extends Component {
     render() {
         return (
             <div className="p-login">
+                <Header />
                 <h1>login page</h1>
                 <button
                     onClick={() => {
